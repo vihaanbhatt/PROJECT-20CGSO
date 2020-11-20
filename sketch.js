@@ -16,7 +16,7 @@ wall.shapeColor=color(lightgrey)
 }
 
 function draw() {
-  background(grey);
+  background("grey");
   if(wall.x-car.x < (car.width+wall.width)/2)
   {
     car.shapeColor=color(255, 0, 0);
